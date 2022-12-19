@@ -79,16 +79,16 @@ hr {
 }
 
 .headshot {
-  height: 80%;
+  height: 60%;
   margin-top: 7rem;
 }
 
 .bio{
-  margin-top: 7rem;
+  margin-top: 4rem;
   margin-bottom: 5rem;
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 2rem;
+  padding: 4rem;
   color: #001E11;
   text-align: left;
 }
