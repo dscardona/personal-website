@@ -12,12 +12,16 @@ body{
 .site-footer {
   background-color: #001E11;
   display: block;
-  color: #B0ABC0;
   }
 
 .footer-text {
   color: white;
 }
+
+.footer-header{
+  color: #B0ABC0;
+}
+
 .social-icons {
   margin: .5rem;
 }
