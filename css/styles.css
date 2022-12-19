@@ -74,21 +74,41 @@ hr {
   background-color: #9a8dc5;
 }
 
-.placeholder-span{
-  background-color: #B0ABC0;
+
+
+.about-title {
+  margin-top: 3rem;
 }
 
 .headshot {
   height: 60%;
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 
 .bio{
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 4rem;
   color: #001E11;
   text-align: left;
+}
+
+.skills-title{
+  padding-left: 3rem;
+}
+
+.skill-box{
+  background-color: #B0ABC0;
+  height: 2.5rem;
+  width: 6rem;
+  margin: 1rem;
+  text-align: center;
+  padding: .5rem;
+}
+
+.skill-box-group{
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
