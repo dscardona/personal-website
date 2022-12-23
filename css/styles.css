@@ -67,40 +67,27 @@ hr {
   margin: 0;
 }
 
-
 .about-title {
-  padding: 7%;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .headshot {
   max-width: 100%;
   height: auto;
-  margin-top: 2rem;
 }
 
 .bio{
-  margin-top: auto;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #001E11;
   text-align: left;
 }
 
-.skills-title{
-  text-align: center;
-  padding: 5%;
-}
-
 .skill-box{
   background-color: #B0ABC0;
   height: 2.5rem;
-  width: 6rem;
-  margin: 1rem;
   text-align: center;
   padding: .5rem;
-}
-
-.skill-box-group{
-  margin-left: 3rem;
-  margin-bottom: 2rem;
+  margin: .1rem;
 }
