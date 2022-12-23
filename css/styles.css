@@ -68,8 +68,8 @@ hr {
 }
 
 .about-title {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .headshot {
@@ -90,4 +90,13 @@ hr {
   text-align: center;
   padding: .5rem;
   margin: .1rem;
+}
+
+#projects-carousel {
+  position:static;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  text-align: center;
 }
