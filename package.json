@@ -9,7 +9,9 @@
     "scss": "node-sass -o css/ css/",
     "lite": "lite-server",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin projects.html -d dist --htmlmin -o dist/projects.html"
   },
   "repository": {
     "type": "git",
@@ -22,11 +24,13 @@
   },
   "homepage": "https://github.com/dscardona/personal-website#readme",
   "devDependencies": {
+    "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
     "node-sass": "^6.0.1",
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
