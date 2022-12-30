@@ -99,11 +99,6 @@ hr {
   margin: .1rem;
 }
 
-/* PROJECTS */
-#projects-carousel {
-  position:static;
-}
-
 /* CONTACT */
 .contact-title {
   font-size: 1.5rem;
@@ -116,4 +111,21 @@ hr {
 
 .contactForm {
   color:#001E11;  
+}
+
+/* PROJECTS */
+.projects-container {
+  width: 100%;
+  height: 200px;
+  color: rgb(255, 255, 255);
+}
+
+.project-box {
+  color: #001E11;
+}
+
+.card-title-pane {
+  background-color:#001E11;
+  color: white;
+
 }
